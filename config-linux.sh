@@ -16,6 +16,7 @@ cat $PROJECT_DIR/cmake_linux.txt > $PROJECT_DIR/CMakeLists.txt
 sed -i "s/project_name/state/g" $PROJECT_DIR/CMakeLists.txt
 
 cd $PROJECT_DIR
+mv src/simple_snake.c src/main.c
 
 cmake .
 cmake --build .
@@ -27,6 +28,10 @@ rm -rf cmake_*
 echo """
 ####################
 help:
+Use ${PROJECT_DIR}/src/main.c as a sample.
+Add your .c or .h files to ${PROJECT_DIR}/src/
+
+
 	to build:
 		cmake --build .
 	to run:
