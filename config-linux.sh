@@ -24,6 +24,7 @@ cmake --build .
 sed -i "s/simple_snake/main/g" Makefile
 
 rm -rf cmake_*
+rm -rf .git README.md
 
 echo """
 ####################
