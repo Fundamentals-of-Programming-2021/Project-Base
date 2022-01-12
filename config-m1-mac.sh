@@ -13,7 +13,8 @@ brew install Sdl2 Sdl2_Gfx cmake
 
 cd $PROJECT_DIR
 rm -rf README.md config-* .git
-mv ./snake_project/* ..
+mv ./snake-project/* .
+rm -rf ./snake-project
 
 cmake .
 cmake --build .
