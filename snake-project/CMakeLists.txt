@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(state project)
+project("state project")
 include_directories("/opt/homebrew/include/")
 link_directories("/opt/homebrew/lib/")
 add_executable(state main.c)
