@@ -7,6 +7,6 @@ Some useful scripts, to config your project.
 Wrtie your own codes on src directory
 
 # M1 Mac
-- `bash -c "$(wget -q -O- https://raw.githubusercontent.com/Fundamentals-of-Programming-2021/Project-Base/master/config-m1-mac.sh)"`
+- `bash -c "$(curl -LfsS -r 5 https://raw.githubusercontent.com/Fundamentals-of-Programming-2021/Project-Base/master/config-m1-mac.sh)"`
 
 **(CMakeList is written by [AmirMohammad](https://github.com/kooshkya), so, thanks!)**
